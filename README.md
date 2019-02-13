@@ -9,6 +9,11 @@ devtools::install_github("acgold/compensateR")
 ## Dissolved Oxygen
 Temperature and salinity compensation performed using equations from Garcia and Gordon, 1992. Described and summarized here: https://water.usgs.gov/admin/memo/QW/qw11.03.pdf
 
+#### Example
+```
+DO_adjust(base_temp = 25, temperature, dissolved_oxygen, salinity = rep(0, length(temperature)))
+```
+
 ## Conductivity
 Calculation of specific conductance performed using a simple linear equation with 2% difference/degree used by the US EPA and described in Standard Methods:
 
