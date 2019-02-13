@@ -1,10 +1,10 @@
 # compensateR
 An R package used to compensate unprocessed data from environmental sensors for temperature and salinity. 
 
-Install `compensateR` using:
+Install `compensateR` using `devtools`:
 ```
 install.packages("devtools")
-devtools::install_github("username/packagename")
+devtools::install_github("acgold/compensateR")
 ```
 ## Dissolved Oxygen
 Temperature and salinity compensation performed using equations from Garcia and Gordon, 1992. Described and summarized here: https://water.usgs.gov/admin/memo/QW/qw11.03.pdf
