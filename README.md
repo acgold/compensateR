@@ -25,7 +25,7 @@ where T = water temperature in ˚C
 
 Salinity is estimated using specific conductivity and the following equation:
 
- >**Salinity = (5.572E-4 x specific_conductance) + (2.02E-9 x specific_conductance^2)**
+ >**Salinity = (5.572E-4 * specific_conductance) + (2.02E-9 * specific_conductance^2)**
 
 #### Examples
 ```R
