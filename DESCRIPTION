@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: person("Adam","Gold", email = "gold@unc.edu", role = c("aut","cre"))
 Description: This package allows users to adjust raw data from water quality sensors 
     for temperature and salinity. Functions in this package can be used to calculate
-    specific conductance, temperature compensate dissolved oxygen, and well as salinity.
+    specific conductance, temperature compensated dissolved oxygen, and well as salinity.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
