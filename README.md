@@ -21,4 +21,4 @@ Garcia, H.E., and Gordon, L.I., 1992, Oxygen solubility in seawater—Better fit
 
 Standard Methods For the Examination of Water and Wastewater, 2510 CONDUCTIVITY (2017), DOI:10.2105/SMWW.2882.027, URL:https://www.standardmethods.org/doi/full/10.2105/SMWW.2882.027
 
-US EPA, 1982, Method 120.1: Conductance (Specific Conductance, \µmhos at 25˚C) by Conductivity Meter, URL:https://www.epa.gov/sites/production/files/2015-08/documents/method_120-1_1982.pdf
+US EPA, 1982, Method 120.1: Conductance (Specific Conductance, µmhos at 25˚C) by Conductivity Meter, URL:https://www.epa.gov/sites/production/files/2015-08/documents/method_120-1_1982.pdf
