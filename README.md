@@ -11,18 +11,31 @@ Temperature and salinity compensation performed using equations from Garcia and 
 
 #### Example
 ```R
-set.seed(1)
 temperature <- rnorm(10, mean = 25, sd = 8)
 dissolved_oxygen <- rnorm(10, mean = 6, sd = 2)
 
-DO_adjust(base_temp = 25, temperature, dissolved_oxygen)
+DO_adjust(base_temp = 25, temperature = temperature, dissolved_oxygen = dissolved_oxygen)
 ```
-## Conductivity
+## Specific Conductivity & Salinity
 Calculation of specific conductance performed using a simple linear equation with 2% difference/degree used by the US EPA and described in Standard Methods:
 
 **Specific conductance = conductivity /(1 - ((25-T) * 0.02))** 
 
 where T = water temperature in ˚C 
+
+Salinity is estimated using specific conductivity and the following equation:
+
+**Salinity = (5.572E-4 x specific_conductance) + (2.02E-9 x specific_conductance^2)
+
+#### Examples
+```R
+conductivity <- rnorm(10,500, sd = 100)
+temperature <- rnorm(10, mean = 25, sd = 8)
+
+sc <- sp_conductance(temperature = temperature, conductivity = conductivity)
+
+salinity(sc)
+```
 
 ## More Resources
 Overview of temperature and salinity compensation: https://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-tds/
