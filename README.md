@@ -29,7 +29,7 @@ Salinity is estimated using specific conductivity and the following equation:
 
 #### Examples
 ```R
-conductivity <- rnorm(10,500, sd = 100)
+conductivity <- rnorm(10, 500, sd = 100)
 temperature <- rnorm(10, mean = 25, sd = 8)
 
 sc <- sp_conductance(temperature = temperature, conductivity = conductivity)
