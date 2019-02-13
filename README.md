@@ -11,5 +11,5 @@ Specific conductance = conductivity /(1 - ((25-T) * 0.02))
 
 Where: T = water temperature in degrees C 
 
-#### References
+## References
 Garcia, H.E., and Gordon, L.I., 1992, Oxygen solubility in seawater—Better fitting equations: Limnology and Oceanography, vol. 37, no. 6, p. 1307-1312. (Also available at http://www.jstor.org/stable/pdfplus/2837876.pdf.)
