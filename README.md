@@ -19,13 +19,13 @@ adj_DO <- DO_adjust(base_temp = 25, temperature = temperature, dissolved_oxygen 
 ## Specific Conductivity & Salinity
 Calculation of specific conductance performed using a simple linear equation with 2% difference/degree used by the US EPA and described in Standard Methods:
 
-**Specific conductance = conductivity /(1 - ((25-T) * 0.02))** 
+>**Specific conductance = conductivity /(1 - ((25-T) * 0.02))** 
 
 where T = water temperature in ˚C 
 
 Salinity is estimated using specific conductivity and the following equation:
 
-**Salinity = (5.572E-4 x specific_conductance) + (2.02E-9 x specific_conductance^2)**
+ >**Salinity = (5.572E-4 x specific_conductance) + (2.02E-9 x specific_conductance^2)**
 
 #### Examples
 ```R
