@@ -8,7 +8,7 @@ Temperature and salinity compensation performed using equations from Garcia and 
 Calculation of specific conductance performed using a simple linear equation:
 
 Specific conductance = conductivity /(1 - ((25-T) * 0.02)) 
-Specific+conductance+%3D+conductivity+%2F%281+-+%28%2825-T%29+%2A+0.02%29%29+
+%5CSpecific+conductance+%3D+conductivity+%2F%281+-+%28%2825-T%29+%2A+0.02%29%29+
 
 Where: T = water temperature in degrees C 
 
