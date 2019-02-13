@@ -1,4 +1,4 @@
-# compensateR
+v# compensateR
 An R package used to compensate unprocessed data from environmental sensors for temperature and salinity. 
 
 Install `compensateR` using `devtools`:
@@ -11,16 +11,12 @@ Temperature and salinity compensation performed using equations from Garcia and 
 
 #### Example
 ```R
-DO_adjust(base_temp = 25, temperature, dissolved_oxygen, salinity = rep(0, length(temperature)))
+set.seed(1)
+temperature <- rnorm(10, mean = 25, sd = 8)
+dissolved_oxygen <- rnorm(10, mean = 6, sd = 2)
+
+DO_adjust(base_temp = 25, temperature, dissolved_oxygen)
 ```
-`base_temp` = The temperature (˚C) that dissolved oxygen probe measures against.  Default is 25˚C
-
-`temperature` = A vector or 1-D column of temperature measurements that coincide with conductivity measurements
-
-`dissolved oxygen` = A vector or 1-D column of dissolved oxygen measurements that coincide with conductivity measurements
-
-`salinity` = A vector or 1-D column of salinity measurements that coincide with temperature measurements. Can be calculated from conductivity and temperature using `salinity()`. Default is 0. Only recommended for salinities > 2 ppt
-
 ## Conductivity
 Calculation of specific conductance performed using a simple linear equation with 2% difference/degree used by the US EPA and described in Standard Methods:
 
