@@ -23,6 +23,7 @@ temperature <- rnorm(10, mean = 25, sd = 8)
 dissolved_oxygen <- rnorm(10, mean = 6, sd = 2)
 
 adj_DO <- DO_adjust(base_temp = 25, temperature = temperature, dissolved_oxygen = dissolved_oxygen)
+perc_sat <- DO_adjust_units(temperature = temperature, dissolved_oxygen = adj_DO)
 ```
 ## Specific Conductivity & Salinity
 Calculation of specific conductance performed using a simple linear equation with 2% difference/degree used by the US EPA and described in Standard Methods:
