@@ -7,13 +7,6 @@ install.packages("devtools")
 devtools::install_github("acgold/compensateR")
 ```
 
-New versions of R may not install if you have a space in your path name. In my case, I downgraded to R 4.1 using RStudio (Tools -> Global Options -> General), specified the new library to a path with no spaces, and used the following code to dowload the package and install in the newer R version's library:
-```R
-library("withr")
-library("devtools")
-with_libpaths(new = "path_for_new_R_library", install_github("acgold/compensateR")) 
-```
-
 ## Dissolved Oxygen
 Temperature + salinity compensation and conversion from mg/L to % saturation performed using equations from Garcia and Gordon, 1992. Described and summarized here: https://water.usgs.gov/admin/memo/QW/qw11.03.pdf
 
