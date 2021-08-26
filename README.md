@@ -25,7 +25,7 @@ Calculation of specific conductance performed using a simple linear equation wit
 
 where T = water temperature in ˚C 
 
-Salinity is estimated using specific conductivity and the following function from [Schemel 2001](https://pubs.er.usgs.gov/publication/70174311) as described in the **Computation of Salinity** section in [this document](https://pubs.usgs.gov/tm/2006/tm1D3/pdf/TM1D3.pdf) from the USGS (2006).
+Salinity is estimated using specific conductivity and the following function from [Schemel 2001](https://pubs.er.usgs.gov/publication/70174311) as described in the **Computation of Salinity** section in [Wagner et al., 2006](https://pubs.usgs.gov/tm/2006/tm1D3/pdf/TM1D3.pdf).
 
 ```R
 salinity <- function(specific_conductance){
