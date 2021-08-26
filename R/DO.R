@@ -2,7 +2,7 @@
 #'
 #'\code{DO_adjust} accepts dissolved oxygen and temperature measurements
 #'and adjusts dissolved oxygen based on solubility of oxygen at
-#'different temperatures. Uses USGS methods (citing Garcia and Gordon, 1992)
+#'different temperatures assuming constant pressure. Uses USGS methods (citing Garcia and Gordon, 1992)
 #'found here: \url{https://water.usgs.gov/admin/memo/QW/qw11.03.pdf}
 #'
 #'@param base_temp The temperature (˚C) that dissolved oxygen probe measures against. Default 25˚C
@@ -16,7 +16,6 @@ DO_adjust <- function(base_temp = 25, temperature, dissolved_oxygen, salinity = 
   t <- c(temperature)
   d <- c(dissolved_oxygen)
   s = c(salinity)
-  p = c(pressure)
 
   if(length(t) != length(d) | length(t) != length(s) ){
     return("Lengths do not match!")

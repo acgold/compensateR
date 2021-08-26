@@ -5,7 +5,6 @@
 #'different temperatures. Uses USGS methods (citing Garcia and Gordon, 1992)
 #'found here: \url{https://water.usgs.gov/admin/memo/QW/qw11.03.pdf}
 #'
-#'@param base_temp The temperature (˚C) that dissolved oxygen probe measures against. Default 25˚C
 #'@param temperature A vector or 1-D column of temperature measurements that coincide with conductivity measurements
 #'@param dissolved_oxygen A vector or 1-D column of dissolved measurements that coincide with temperature measurements
 #'@param salinity A vector or 1-D column of salinity measurements that coincide with temperature measurements

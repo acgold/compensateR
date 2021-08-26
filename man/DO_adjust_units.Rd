@@ -4,8 +4,11 @@
 \alias{DO_adjust_units}
 \title{convert dissolved oxygen from mg/L to percent saturation}
 \usage{
-DO_adjust_units(temperature, dissolved_oxygen, salinity = rep(0,
-  length(temperature)))
+DO_adjust_units(
+  temperature,
+  dissolved_oxygen,
+  salinity = rep(0, length(temperature))
+)
 }
 \arguments{
 \item{temperature}{A vector or 1-D column of temperature measurements that coincide with conductivity measurements}
@@ -13,8 +16,6 @@ DO_adjust_units(temperature, dissolved_oxygen, salinity = rep(0,
 \item{dissolved_oxygen}{A vector or 1-D column of dissolved measurements that coincide with temperature measurements}
 
 \item{salinity}{A vector or 1-D column of salinity measurements that coincide with temperature measurements}
-
-\item{base_temp}{The temperature (˚C) that dissolved oxygen probe measures against. Default 25˚C}
 }
 \value{
 Dissolved oxygen values converted to percent saturation

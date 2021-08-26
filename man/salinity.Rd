@@ -10,9 +10,9 @@ salinity(specific_conductance)
 \item{specific_conductance}{a vector or 1-D column of temperature measurements that coincide with conductivity measurements}
 }
 \value{
-Practical salinity units, PSU, in parts per thousand
+Practical salinity units (PSU)
 }
 \description{
-\code{salinity} Accepts specific conductance values and
-converts them to practical salinity units (PSU) in ppt
+\code{salinity} Accepts specific conductance values (uS/cm) and
+converts them to practical salinity units (PSU, dimensionless). Equations from Schemel 2001 (as described here: https://pubs.usgs.gov/tm/2006/tm1D3/pdf/TM1D3.pdf)
 }

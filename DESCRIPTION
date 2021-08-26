@@ -1,12 +1,12 @@
 Package: compensateR
 Type: Package
 Title: Temperature and salinity compensation for water quality sensor data
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Adam","Gold", email = "gold@unc.edu", role = c("aut","cre"))
 Description: This package allows users to adjust raw data from water quality sensors 
     for temperature and salinity. Functions in this package can be used to calculate
-    specific conductance, temperature compensated dissolved oxygen, and well as salinity.
+    specific conductance, temperature compensated dissolved oxygen, and salinity.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1

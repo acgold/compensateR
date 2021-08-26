@@ -4,8 +4,12 @@
 \alias{DO_adjust}
 \title{Adjust dissolved oxygen}
 \usage{
-DO_adjust(base_temp = 25, temperature, dissolved_oxygen,
-  salinity = rep(0, length(temperature)))
+DO_adjust(
+  base_temp = 25,
+  temperature,
+  dissolved_oxygen,
+  salinity = rep(0, length(temperature))
+)
 }
 \arguments{
 \item{base_temp}{The temperature (˚C) that dissolved oxygen probe measures against. Default 25˚C}
@@ -23,6 +27,6 @@ Dissolved oxygen values adjusted for temperature
 \description{
 \code{DO_adjust} accepts dissolved oxygen and temperature measurements
 and adjusts dissolved oxygen based on solubility of oxygen at
-different temperatures. Uses USGS methods (citing Garcia and Gordon, 1992)
+different temperatures assuming constant pressure. Uses USGS methods (citing Garcia and Gordon, 1992)
 found here: \url{https://water.usgs.gov/admin/memo/QW/qw11.03.pdf}
 }

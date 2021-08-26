@@ -4,8 +4,13 @@
 \alias{compensate_all}
 \title{Temperature and salinity compensation}
 \usage{
-compensate_all(base_temp = 25, temperature, dissolved_oxygen,
-  conductivity, sal_comp = F)
+compensate_all(
+  base_temp = 25,
+  temperature,
+  dissolved_oxygen,
+  conductivity,
+  sal_comp = F
+)
 }
 \arguments{
 \item{base_temp}{The temperature (˚C) that dissolved oxygen probe measures against. Default 25˚C}
