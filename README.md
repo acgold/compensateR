@@ -68,5 +68,5 @@ Standard Methods For the Examination of Water and Wastewater, 2510 CONDUCTIVITY 
 
 US EPA, 1982, Method 120.1: Conductance (Specific Conductance, µmhos at 25˚C) by Conductivity Meter, URL:https://www.epa.gov/sites/production/files/2015-08/documents/method_120-1_1982.pdf
 
-Wagner, R.J., Boulger, R.W., Jr., Oblinger, C.J., and Smith, B.A., 2006, Guidelines and standard procedures for continuous water-quality monitors—Station operation, record computation, and data reporting: U.S. Geological Survey Techniques and Methods 1–D3, 51 p. + 8 attachments; accessed August 25, 2021, at http://pubs.water.usgs.gov/tm1d3
+Wagner, R.J., Boulger, R.W., Jr., Oblinger, C.J., and Smith, B.A., 2006, Guidelines and standard procedures for continuous water-quality monitors—Station operation, record computation, and data reporting: U.S. Geological Survey Techniques and Methods 1–D3, 51 p. + 8 attachments; accessed August 25, 2021, at http://pubs.water.usgs.gov/tm1d3
  
